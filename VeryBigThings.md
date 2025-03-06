@@ -1,4 +1,4 @@
-# First logged version (to lazy to know wich one)
+# First logged version (too lazy to know wich one)
 ``main.cpp``
 ```c++
 #include <windows.h>
