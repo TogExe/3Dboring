@@ -1,4 +1,13 @@
-# First logged version (too lazy to know wich one)
+# Global version history :
+
+- [idk](#idk)
+- [v3.1.1](#e311)
+- [p3.2.1](#e321)
+- [v3.2.2](#e322)
+
+## First logged version (too lazy to know wich one)
+___
+<a name="idk"></a>
 ``main.cpp``
 ```c++
 #include <windows.h>
@@ -527,10 +536,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 # VERSION 3.1.1
 ___
-we now separate the program into different files to make the code more readable. 
+<a name="e311"></a>
+we now will try to separate the program into different files to make the code more readable. 
 And make finding parts easier. (cancelled)
 
-old ver : 
+log : 
 
 ``main.cpp``
 ```c++
@@ -1046,6 +1056,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 }
 ```
 ## Patch 3.2.1
+<a name="e321"></a>
 ___
 ``main.cpp``
 ```c++
@@ -1579,6 +1590,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 ```
 ## Version 3.2.2
 ___
+<a name="e322"></a>
 - slight performance improvement. By improving existing systems.
 - officially implementing a world generation for testing.
 - still has some issues with pitch and yaw rotation.
