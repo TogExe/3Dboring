@@ -1,4 +1,4 @@
-#include <windows.h>
+#include <windows.h> // i need to remove this stupidity i hate windows :(
 #include <gdiplus.h>
 #include <cmath>
 #include <vector>
@@ -89,7 +89,7 @@ void forwardMove(float d) {
     camera_offset_z += forward_z;
 }
 
-void DrawTriangle(HDC hdc, Triangle* triangle) {
+void DrawTriangle(HDC hdc, Triangle* triangle) { // I GOTTA GET THIS SHIT OUT SDL IS WAY BETTER
     Gdiplus::Graphics graphics(hdc);
     Gdiplus::Pen pen(Gdiplus::Color(255, 0, 0, 255));
     for (int i = 0; i < 3; i++) {
